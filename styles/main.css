@@ -68,6 +68,31 @@ body{
 .heading-two h1{
     font-size: 48px;
 }
+/* Statics Section */
+.statics{
+    background-color: indianred;
+    padding: 50px 0;
+}
+.statics-all-col{
+    display: flex;
+    justify-content: space-around;
+}
+.statics h1{
+    text-align: center;
+}
+
+/* iframe Section */
+.iframe-section{
+    padding: 80px 0;
+}
+.iframe-section h2{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.frame-data{
+    display: flex;
+    justify-content: space-around;
+}
 /* Footer Section */
 .footer-section{
     display: flex;
