@@ -148,15 +148,26 @@ body{
     .statics{
         display: none;
     }
-    .iframe-section{
-        display: none;
+    .iframe-section h2{
+        text-align: left;
+        font-size: 25px;
+    }
+    .frame-data{
+        flex-direction: column;
+    }
+    .data-1 iframe{
+        width: 320px;
+        margin-bottom: 30px;
+    }
+    .data-2 iframe{
+        width: 320px;
     }
     .footer-section{
         align-items: flex-start;
     }
     .footer-logo img{
-    width: 300px;
-    height: 110px;
+    width: 200px;
+    height: 80px;
     }
     .footer-section .icons{
         margin-left: 80px;
