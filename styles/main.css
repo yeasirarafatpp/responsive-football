@@ -32,7 +32,7 @@ body{
 }
 .banner-img img{
     width: 556px;
-    height: 438 px;
+    height: 438px;
 }
 /* Player Section CSS */
 .players{
@@ -117,4 +117,38 @@ body{
 .fab{
     margin-left: 7px;
     margin-top: 7px;
+}
+/* Mediea Query */
+@media only screen and (max-width:688px) {
+    .first-banner{
+        flex-direction: column;
+        width: 668px;
+        height: 695px;
+    }
+    .heading h1{
+    font-size: 36px;
+    }
+    .banner-img img{
+    width: 330px;
+    height: 260px;
+    }
+    .players{
+        grid-template-columns: 1fr;
+        /* margin-left: 0; */
+    }
+    .second-banner{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .heading-two h1{
+    font-size: 30px;
+    }
+    .statics-all-col{
+        flex-direction: column;
+        align-items: center;
+    }
+    .frame-data{
+        flex-direction: column;
+        width: 100%;
+    }
 }
