@@ -1,0 +1,70 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+/* Common CSS */
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Banner CSS */
+.first-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2D25A0;
+    height: 667px;
+}
+.heading h1{
+    font-size: 64px;
+    color: white;
+    font-weight: bold;
+}
+.banner-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 8px 25px;
+}
+.banner-btn:hover {
+    transform: rotate(90deg);
+    transition: transform 2s;
+}
+.banner-img img{
+    width: 556px;
+    height: 438 px;
+}
+/* Player Section CSS */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 95px;
+
+}
+.player{
+    width: 325px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    padding: 8px;
+    box-shadow: 5px 5px 50px grey;
+}
+.player img{
+    width: 325px;
+    height: 256px;
+}
+.player h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+/* Optional Banner */
+.second-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+.heading-two h1{
+    font-size: 48px;
+}
