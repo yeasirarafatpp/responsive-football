@@ -145,8 +145,9 @@ body{
     .heading-two h1{
     font-size: 30px;
     }
-    .statics{
-        display: none;
+    .statics-all-col{
+        flex-direction: column;
+        align-items: center;
     }
     .iframe-section h2{
         text-align: left;
