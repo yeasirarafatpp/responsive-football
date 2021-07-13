@@ -136,7 +136,7 @@ body{
     }
     .players{
         grid-template-columns: 1fr;
-        margin-left: 0;
+        margin-left: 5px;
     }
     .second-banner{
         flex-direction: column;
@@ -168,14 +168,15 @@ body{
     .footer-logo img{
     width: 200px;
     height: 80px;
+    margin-left: 50px;
     }
     .footer-section .icons{
-        margin-left: 80px;
+        margin-left: 85px;
     }
     .icons a i{
         text-align: center;
     }
     .copyright p{
-        margin-left: 50px;
+        margin-left: 56px;
     }
 }
