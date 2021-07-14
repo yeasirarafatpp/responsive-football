@@ -121,6 +121,7 @@ body{
     margin-top: 7px;
 }
 /* Mediea Query */
+/* Iphone X Model */
 @media only screen and (max-width:688px) {
     .first-banner{
         flex-direction: column;
@@ -136,7 +137,7 @@ body{
     }
     .players{
         grid-template-columns: 1fr;
-        margin-left: 5px;
+        margin-left: 17px;
     }
     .second-banner{
         flex-direction: column;
@@ -157,11 +158,11 @@ body{
         flex-direction: column;
     }
     .data-1 iframe{
-        width: 320px;
+        width: 373px;
         margin-bottom: 30px;
     }
     .data-2 iframe{
-        width: 320px;
+        width: 373px;
     }
     .footer-section{
         align-items: flex-start;
@@ -169,15 +170,15 @@ body{
     .footer-logo img{
     width: 200px;
     height: 80px;
-    margin-left: 50px;
+    margin-left: 73px;
     }
     .footer-section .icons{
-        margin-left: 85px;
+        margin-left: 110px;
     }
     .icons a i{
         text-align: center;
     }
     .copyright p{
-        margin-left: 56px;
+        margin-left: 77px;
     }
 }
